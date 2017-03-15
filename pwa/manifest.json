@@ -1,0 +1,10 @@
+{
+  "name": "whiteesky",
+  "short_name": "whiteesky",
+  "description": "别低头，皇冠会掉",
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

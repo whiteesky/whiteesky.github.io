@@ -1,0 +1,49 @@
+title: WHITEESKY
+SEOTitle: WHITEESKY的博客 | WHITEESKY
+header-img: img/main/witcher.jpg
+description: "WHITEESKY的博客"
+keyword: "whiteesky, whiteesky的博客, WHITEESKY, WHITEESKY的博客"
+url: "http://whiteesky.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# Sidebar settings | 侧边栏设置
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "别低头，皇冠会掉"
+sidebar-avatar: /img/main/raul.jpg      # 头像
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+# 转换时排除某些文件夹或文件。被排除的文件或文件夹的路径是相对于网站源码目录的，源码目录以外不受影响。
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+Regeneration: true    # 允许文件修改时自动重新生成网站。
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
