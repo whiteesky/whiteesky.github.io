@@ -8,7 +8,7 @@ tags:
   - Java
   - Spring
   - Http
-header-img: img/article/4.jpg
+header-img: img/article/scheduled_httpclient/header.jpg
 copyright: true
 ---
 **曾经踩过一个大坑：**

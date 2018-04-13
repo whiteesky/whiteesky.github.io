@@ -8,7 +8,7 @@ tags:
   - Java
   - Spring
   - AOP
-header-img: img/article/6.jpg
+header-img: img/article/spring_aop/header.jpg
 copyright: true
 ---
 @Transactional @Async等注解不起作用
